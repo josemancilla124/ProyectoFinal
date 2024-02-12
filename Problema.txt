@@ -1,0 +1,8 @@
+PROYECTO FINAL
+EXPLICACIÓN DEL PROBLEMA
+
+La empresa de seguros TK-U necesita aumentar sus ventas, sin embargo para hacer esto tendrían que aumentar su personal y el tamaño de sus instalaciones lo cual no es óptimo. Una mejor solución sería automatizar el cálculo para la cotización del seguro, tomando en cuenta todas las variables que actualmente generan recargos en el precio base y así aumentar la eficiencia de los empleados al reducir el tiempo que se tardan con cada cotización. 
+
+Las situaciones que actualmente generan recargos para el cliente son: la edad del asegurado, edad de su cónyuge, cantidad de hijos, cantidad de propiedades y un 5% de su salario. Como se observa, calculcar estos recargos manualmente es muy tardado, sobre todo porque el porcentaje del recargo varía de acuerdo a la edad y la cantidad según sea la variable. 
+
+Para solucionar esto se propone la creación de un programa por medio del lenguaje JavaScript, el cual genera el total de la cotización automáticamente y sólo necesita que el empleado ingrese los valores que se solicitan.

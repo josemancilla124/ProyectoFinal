@@ -1,0 +1,59 @@
+PROYECTO FINAL
+ALGORITMO PARA LA COTIZACIÓN DEL SEGURO
+
+1. Se pide la edad al cliente.
+	1.1 Si es mayor de edad se continúa con la cotización.
+	1.2 Si es menor de edad se cancela la cotización.
+
+2. Se inicia al cliente en un plan base.
+
+3. Se calcula un recargo basado en la edad del cliente.
+	3.1 Si tiene de 18 a 24 años el recargo es del 10% del 	precio base.
+	3.2 Si tiene de 25 a 49 años el recargo es del 20% del 	precio base.
+	3.3 Si tiene 50 años o más el recargo es del 30% del 	precio base.
+
+4. Se pregunta al cliente si es casado/a.
+	4.1 Si la respuesta es "sí" se pregunta la edad del/la 	cónyuge.
+	4.2 Si la respuesta es "no" se continúa con el paso 6.
+
+5. Se calcula un recargo basado en la edad del/la cónyuge.
+	5.1 Si tiene de 18 a 24 años el recargo es del 10% del 	precio base.
+	5.2 Si tiene de 25 a 49 años el recargo es del 20% del 	precio base.
+	5.3 Si tiene 50 años o más el recargo es del 30% del 	precio base.
+
+6. Se pregunta al cliente si tiene hijos.
+	6.1 Si la respuesta es "sí" se pregunta la cantidad de 	hijos que tiene.
+	6.2 Si la respuesta es "no" se continúa con el paso 8.
+
+7. Se calcula un recargo por la cantidad de hijos.
+	7.1 Se multiplica la cantidad de hijos por 20% del precio 	base.
+
+8. Se pregunta al cliente si cuenta con propiedades.
+	8.1 Si la respuesta es "sí" se pregunta la cantidad de 	propiedades con las que cuenta y se guarda la cantidad.
+	8.2 Si la respuesta es "no" se continúa con el paso 9.
+
+9. Se pregunta el salario anual al cliente.
+
+10. Se calcula el recargo por salario.
+	10.1 Se multiplica el salario anual por 5%.
+
+11. Se calcula el recargo parcial.
+	11.1 Se suman los recargos por edad, edad del/la cónyuge, 	cantidad de hijos y salario anual.
+
+12. Se calcula el precio parcial.
+	12.1 Se suma el precio base y el recargo parcial.
+
+13. Se calcula el recargo por propiedades.
+	13.1 Se recupera la cantidad de propiedades.
+	13.1 Se multiplica la cantidad de propiedades por el 35% 	del precio parcial.
+
+14. Se calcula el recargo total.
+	14.1 Se suma el recargo por propiedades y el recargo 	parcial.
+
+15. Se calcula el precio final.
+	15.1 Se suma el precio parcial y el recargo por 	propiedades. 
+
+16. Se dan los datos al asegurado.
+	16.1 Se indica el nombre del asegurado.
+	16.2 Se indica el recargo total.
+	16.3 Se indica el precio final.
